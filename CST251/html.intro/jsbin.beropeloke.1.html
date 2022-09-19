@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by anonymous (http://jsbin.com/beropeloke/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Deez</title>
+</head>
+<body>
+  <form>
+    <!-- User name input -->
+    <input type="text" name="fname" 
+           placeholder="Type your first name" 
+           required/>
+    <button id="btn">Submit</button> <br>
+    
+    <!-- Email input -->
+    <input type="email" name="user_email" 
+           placeholder="please enter your email"
+           required /> <br>
+    
+    <!-- Number input -->
+    <input type="number" name="qty" min="18" max="48" /><br>
+    
+    <!-- Multi-line text input -->
+    feedback<br>
+    <textarea name="comments" cols="20" rows="5"></textarea> <br>
+    
+    <!-- radio button -->
+    <input type="radio" name="sex" value="M">Male
+    <input type="radio" name="sex" value="F">Female <br>
+    
+    <!-- checkbox button -->
+    <input type="checkbox" name="cats" value="dog" > 
+    <label>dawg</label>
+    <input type="checkbox" name="cats" value="cat" > cat
+    <input type="checkbox" name="cats" value="mouse" > topo <br>
+    
+    <!-- Select input -->
+    <select name="os">
+      <option>Select one</option>
+      <option> Windows</option>
+      <option>Mac</option>
+    </select>
+    
+  </form>
+<script id="jsbin-javascript">
+console.log("Hello world");
+
+for (let i = 0; i < 5; i++) {
+  console.log("deez");
+}
+
+let btn = document.getElementById("btn");
+
+btn.addEventListener("click", ()=> {
+  console.log("Clicked");
+});
+
+
+</script>
+</body>
+</html>

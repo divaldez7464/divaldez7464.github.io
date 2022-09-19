@@ -1,0 +1,74 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+h1 {
+  background: #050a52;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border: 3px white solid;
+  font-size: 3rem;
+  margin: 0;
+}
+
+main {
+  background: rgba(5, 10, 82, 0.3);
+  padding: 30px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form label {
+  color: yellow;
+  font-size: 1rem;
+}
+
+form legend {
+  color: lightyellow;
+  font-size: 1.5rem;
+}
+
+button {
+  background: lightblue;
+  color: white;
+  border-style: none;
+  border-radius: 1rem;
+  padding: 10px 35px;
+  font-size: 1.12rem;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+a {
+  color: blue;
+}
+
+li {
+  background: blue;
+  color: white;
+}
