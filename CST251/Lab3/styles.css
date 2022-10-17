@@ -1,0 +1,120 @@
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    background-color: #a72828;
+    color: white;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+
+h1 {
+    background-color: rgb(238, 183, 111);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+}
+
+nav .nav-menu {
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: blue;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+nav a:active {
+    color: green;
+}
+
+nav a:visited {
+    color: red;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.source {
+    font-size: 20px;
+    color: rgb(18, 152, 197);
+}
+
+
+
+/*========= MEDIA QUEREY ONE =========*/
+
+@media(max-width: 768px) {
+    body {
+        padding: 0 20px;
+        margin:0;
+        padding: 0;
+        padding: 10px 30px;
+    }
+    main {
+        top: 180px;
+        position: inherit;
+    }
+
+    nav {
+        top: 0;
+        position: sticky;
+        background-color: tan;
+        overflow: scroll;
+        height: 150px;
+        width: 100%;
+        border: 3px solid black;
+        display: inline-grid;
+        justify-content: space-evenly;
+    }
+  
+    nav ul li {
+        width: 100px;
+    }
+}
+
+    
+/*========= MEDIA QUEREY TWO =========*/
+
+@media (max-width: 727px) {
+    body {
+        padding: 10px 30px;
+    }
+}
+
+/*========= MEDIA QUEREY THREE =========*/
+
+@media (max-width: 543px) {
+    body {
+        font-size: 20px;
+    }
+}
