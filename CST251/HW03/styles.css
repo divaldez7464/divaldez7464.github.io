@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    scroll-behavior: smooth;
+    background-color: azure;
+}
+
+
+main {
+    position: relative;
+    left: 250px;
+    position: absolute;
+    max-width: 75%;
+}
+
+.main-section {
+    max-width: 100%;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+nav header a {
+    padding-left: 10px;
+}
+
+nav header {
+    margin-bottom: 10px;
+}
+
+nav a{
+    border: 1px solid #575656;
+    text-decoration: none;
+    padding: 10px 0;
+    padding-left: 7px;
+    color: #575656;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+.main-code {
+    border-radius: 5px;
+    padding: 30px;
+    display: block;
+    background-color: #eceaea;
+    max-width: 95%;
+}
+
+span {
+    color: rgb(250, 34, 34);
+    padding: 0.5px 5px;
+    background-color: #eceaea;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+tab {
+    padding-left: 2em;
+}
+
+.sub-section {
+    padding-left: 35px;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+p li{
+    color: #575656;
+}
+
+.variable-list li {
+    padding: 2px 0;
+}
+.operator-list li{
+    padding: 3px 0;
+}
+
+
+.main-title {
+    font-size: 25px;
+}
+
+@media (max-width:600px) {
+    body {
+      font-size: 20px;
+    }
+
+}
